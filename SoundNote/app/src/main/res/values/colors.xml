@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#6C5CE7</color>
+    <color name="primary_variant">#5A4BD1</color>
+    <color name="secondary">#00CEC9</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F8F9FA</color>
+    <color name="error">#FF7675</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_background">#1a1a2e</color>
+    <color name="on_surface">#2D3436</color>
+    <color name="recording_red">#FF4757</color>
+    <color name="recording_paused">#FDCB6E</color>
+    <color name="wave_color">#6C5CE7</color>
+    <color name="tag_work">#0984E3</color>
+    <color name="tag_study">#00B894</color>
+    <color name="tag_meeting">#E17055</color>
+    <color name="tag_music">#FDCB6E</color>
+    <color name="tag_important">#FF7675</color>
+</resources>

@@ -1,0 +1,209 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.soundnote"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- 录音权限 -->
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:6:5-71
+12-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:6:22-68
+13    <!-- 前台服务通知权限 -->
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:8:5-77
+14-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+15-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:9:5-88
+15-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:9:22-85
+16    <!-- 唤醒锁权限 -->
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:11:5-68
+17-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:11:22-65
+18    <!-- 通知权限 (Android 13+) -->
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:13:5-77
+19-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:13:22-74
+20    <!-- 蓝牙麦克风 -->
+21    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+21-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:15:5-76
+21-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:15:22-73
+22    <!-- 生物识别 -->
+23    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+23-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:17:5-72
+23-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:17:22-69
+24    <!-- Wi-Fi 直连传输 -->
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:19:5-76
+25-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:19:22-73
+26    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+26-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:20:5-76
+26-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:20:22-73
+27    <uses-permission
+27-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:21:5-23:38
+28        android:name="android.permission.NEARBY_WIFI_DEVICES"
+28-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:21:22-75
+29        android:usesPermissionFlags="neverForLocation" />
+29-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:22:9-55
+30    <!-- VIBRATE for haptic feedback -->
+31    <uses-permission android:name="android.permission.VIBRATE" />
+31-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:25:5-66
+31-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:25:22-63
+32
+33    <permission
+33-->[androidx.core:core:1.12.0] /Users/li/.gradle/caches/transforms-4/e368b14632b5370f4861e90185b3a229/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+34        android:name="com.soundnote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.12.0] /Users/li/.gradle/caches/transforms-4/e368b14632b5370f4861e90185b3a229/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.12.0] /Users/li/.gradle/caches/transforms-4/e368b14632b5370f4861e90185b3a229/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.soundnote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.12.0] /Users/li/.gradle/caches/transforms-4/e368b14632b5370f4861e90185b3a229/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.12.0] /Users/li/.gradle/caches/transforms-4/e368b14632b5370f4861e90185b3a229/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+38
+39    <application
+39-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:27:5-54:19
+40        android:name="com.soundnote.SoundNoteApplication"
+40-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:28:9-45
+41        android:allowBackup="true"
+41-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:29:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.12.0] /Users/li/.gradle/caches/transforms-4/e368b14632b5370f4861e90185b3a229/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+43        android:debuggable="true"
+44        android:extractNativeLibs="true"
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:30:9-43
+46        android:label="@string/app_name"
+46-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:31:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:32:9-54
+48        android:supportsRtl="true"
+48-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:33:9-35
+49        android:testOnly="true"
+50        android:theme="@style/Theme.SoundNote" >
+50-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:34:9-47
+51        <activity
+51-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:37:9-45:20
+52            android:name="com.soundnote.presentation.MainActivity"
+52-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:38:13-54
+53            android:exported="true"
+53-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:39:13-36
+54            android:theme="@style/Theme.SoundNote" >
+54-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:40:13-51
+55            <intent-filter>
+55-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:41:13-44:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:42:17-69
+56-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:42:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:43:17-77
+58-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:43:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <!-- 录音前台服务 -->
+63        <service
+63-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:48:9-52:58
+64            android:name="com.soundnote.service.RecordingService"
+64-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:49:13-53
+65            android:enabled="true"
+65-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:50:13-35
+66            android:exported="false"
+66-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:51:13-37
+67            android:foregroundServiceType="microphone" />
+67-->/Users/li/Library/Application Support/TRAE SOLO CN/ModularData/ai-agent/work-mode-projects/6a0d4a61444433a408ec6a96/SoundNote/app/src/main/AndroidManifest.xml:52:13-55
+68
+69        <activity
+69-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/li/.gradle/caches/transforms-4/aea589e5f3231b92db14236a60305860/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+70            android:name="androidx.compose.ui.tooling.PreviewActivity"
+70-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/li/.gradle/caches/transforms-4/aea589e5f3231b92db14236a60305860/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+71            android:exported="true" />
+71-->[androidx.compose.ui:ui-tooling-android:1.6.1] /Users/li/.gradle/caches/transforms-4/aea589e5f3231b92db14236a60305860/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+72        <activity
+72-->[androidx.compose.ui:ui-test-manifest:1.6.1] /Users/li/.gradle/caches/transforms-4/ce20112b5bd1b366e123a28ef5f9326f/transformed/jetified-ui-test-manifest-1.6.1/AndroidManifest.xml:23:9-25:39
+73            android:name="androidx.activity.ComponentActivity"
+73-->[androidx.compose.ui:ui-test-manifest:1.6.1] /Users/li/.gradle/caches/transforms-4/ce20112b5bd1b366e123a28ef5f9326f/transformed/jetified-ui-test-manifest-1.6.1/AndroidManifest.xml:24:13-63
+74            android:exported="true" />
+74-->[androidx.compose.ui:ui-test-manifest:1.6.1] /Users/li/.gradle/caches/transforms-4/ce20112b5bd1b366e123a28ef5f9326f/transformed/jetified-ui-test-manifest-1.6.1/AndroidManifest.xml:25:13-36
+75
+76        <provider
+76-->[androidx.emoji2:emoji2:1.3.0] /Users/li/.gradle/caches/transforms-4/693ba74c355d5be7e156210b43511465/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/li/.gradle/caches/transforms-4/693ba74c355d5be7e156210b43511465/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+78            android:authorities="com.soundnote.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/li/.gradle/caches/transforms-4/693ba74c355d5be7e156210b43511465/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/li/.gradle/caches/transforms-4/693ba74c355d5be7e156210b43511465/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+80            <meta-data
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/li/.gradle/caches/transforms-4/693ba74c355d5be7e156210b43511465/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/li/.gradle/caches/transforms-4/693ba74c355d5be7e156210b43511465/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+82                android:value="androidx.startup" />
+82-->[androidx.emoji2:emoji2:1.3.0] /Users/li/.gradle/caches/transforms-4/693ba74c355d5be7e156210b43511465/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/li/.gradle/caches/transforms-4/772205ae0d8fd08ea302dde6742d39e2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/li/.gradle/caches/transforms-4/772205ae0d8fd08ea302dde6742d39e2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/li/.gradle/caches/transforms-4/772205ae0d8fd08ea302dde6742d39e2/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+88                android:value="androidx.startup" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+89        </provider>
+90
+91        <service
+91-->[androidx.room:room-runtime:2.6.1] /Users/li/.gradle/caches/transforms-4/e798ce2f6673df0c6af1268f02263fda/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+92            android:name="androidx.room.MultiInstanceInvalidationService"
+92-->[androidx.room:room-runtime:2.6.1] /Users/li/.gradle/caches/transforms-4/e798ce2f6673df0c6af1268f02263fda/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+93            android:directBootAware="true"
+93-->[androidx.room:room-runtime:2.6.1] /Users/li/.gradle/caches/transforms-4/e798ce2f6673df0c6af1268f02263fda/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+94            android:exported="false" />
+94-->[androidx.room:room-runtime:2.6.1] /Users/li/.gradle/caches/transforms-4/e798ce2f6673df0c6af1268f02263fda/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+95
+96        <receiver
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+97            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+98            android:directBootAware="false"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+99            android:enabled="true"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+100            android:exported="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+101            android:permission="android.permission.DUMP" >
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+103                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+106                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+109                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+112                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/li/.gradle/caches/transforms-4/eec741cf3bd68405e33945104094bd2a/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+113            </intent-filter>
+114        </receiver>
+115    </application>
+116
+117</manifest>
